@@ -1,0 +1,9 @@
+<form action="http://your-python-app-url/generate_qr" method="get" target="_blank">
+    <label for="timestamp">Enter Bottling Date:</label>
+    <input type="text" id="timestamp" name="timestamp" placeholder="YYYY-MM-DD HH:MM:SS" required>
+    <br>
+    <label for="expiration">Enter Expiration Date:</label>
+    <input type="text" id="expiration" name="expiration" placeholder="YYYY-MM-DD HH:MM:SS" required>
+    <br>
+    <button type="submit">Generate QR Code</button>
+</form>
